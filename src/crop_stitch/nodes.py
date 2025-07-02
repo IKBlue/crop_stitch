@@ -70,8 +70,8 @@ class StitchDirect:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "cropped_image": ("IMAGE",),
-                "stitcher": ("STITCHER",),
+                "Cropped_image": ("IMAGE",),
+                "Stitcher": ("STITCHER",),
             }
         }
 
